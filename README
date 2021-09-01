@@ -1,1 +1,8 @@
-Folder with the permission has been added to the repo : ) 
+Frist we change directory to --> cd /var/log
+
+We archive .gz directory and all subderictories --> tar -zcvf backup.tgz *.gz
+
+We move the folder with archived backup to Desktop (we can move it whenver we want, i just gave Desktop as default : ) ) 
+
+Then whenever the script is run a text file named with the current date is created that shows what is inside log directory. 
+
